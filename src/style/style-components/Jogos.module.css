@@ -1,0 +1,28 @@
+.container {
+  margin: 2rem 1rem;
+  .subTitle {
+    margin-left: 0.4rem;
+    margin-top: 3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+}
+.gridJogos {
+  display: flex;
+  flex-direction: column;
+}
+.line {
+  height: 0.1rem;
+  background-color: black;
+  margin-top: 0.3rem;
+}
+
+:global(body.tema) .container {
+  h2,
+  .subTitle {
+    color: white;
+  }
+}
+:global(body.tema) .line {
+  background-color: rgb(175, 175, 174);
+}
