@@ -1,6 +1,7 @@
 .main {
-  margin: 0.5rem 0.7rem;
-  height: 100vh;
+  min-height: 100vh;
+  margin-top: 1rem;
+  margin: 1rem 0.6rem;
 }
 .container {
   display: flex;
@@ -32,6 +33,7 @@
     object-position: center;
   }
 }
+
 @media (min-width: 700px) {
   .containerImg {
     height: 70vh;

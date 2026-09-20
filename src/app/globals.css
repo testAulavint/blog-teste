@@ -17,10 +17,6 @@ body {
   flex-direction: column;
 }
 
-body > * {
-  width: 100%;
-}
-
 .tema {
   background-color: black;
 }
