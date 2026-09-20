@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blog de Jogos e Tecnologia
 
-## Getting Started
+Site de notícias e artigos sobre jogos, tecnologia e assuntos do universo digital, com uma interface moderna, navegável e responsiva.
 
-First, run the development server:
+## Status da produção
+
+Este projeto está em produção e disponível na plataforma Vercel.
+
+## Tecnologias utilizadas
+
+- Next.js 16
+- React 19
+- TypeScript
+- CSS Modules
+- App Router do Next.js
+- JSON como base de dados mockada para artigos
+- ESLint
+- Vercel para deploy
+
+## Recursos e funcionalidades do projeto
+
+- Layout principal com header e footer
+- Navegação por categorias:
+  - Tecnologia
+  - Jogos
+- Páginas dinâmicas por artigo
+- Listagem de artigos em destaque
+- Cards de conteúdo para home e categorias
+- Sistema de tema claro/escuro com persistência no localStorage
+- Menu lateral/mobile
+- SEO com metadata dinâmica por artigo
+- Geração estática de páginas de conteúdo
+- Imagens de capa via URLs externas e arquivos locais
+- Estrutura modular com componentes e estilos organizados por pasta
+
+## Estrutura de pastas principal
+
+- src/app: rotas da aplicação e páginas principais
+- src/componentes: componentes reutilizáveis
+- src/lib: utilitários e dados
+- src/style: estilos CSS Modules
+- public: assets e imagens públicas
+
+## Arquivos e dados importantes
+
+- package.json: configuração do projeto e scripts
+- src/lib/services/mocks/News.json: base de artigos do site
+- src/lib/services/types/index.ts: tipagem dos artigos
+- src/app/(public)/page.tsx: página inicial
+- src/app/artigos/jogos/page.tsx: página de jogos
+- src/app/artigos/tecnologia/page.tsx: página de tecnologia
+- src/app/artigos/jogos/[slug]/page.tsx: página detalhada do artigo
+
+## Como executar localmente
+
+```bash
+npm install
+npm run dev
+```
+
+A aplicação fica disponível em:
+
+```bash
+http://localhost:3000
+```
+
+## Scripts disponíveis
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm run start
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O projeto foi pensado para ser implantado na Vercel, aproveitando a compatibilidade nativa com Next.js.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Recursos visuais e de UX
 
-## Learn More
+- Interface com foco em leitura
+- Cards com destaque visual para artigos
+- Tema alternável para melhor experiência do usuário
+- Navegação simples e direta
+- Design responsivo para desktop e mobile
 
-To learn more about Next.js, take a look at the following resources:
+## Observações
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O site utiliza dados em mock JSON para simular o conteúdo publicado, o que facilita o desenvolvimento, testes e apresentação do projeto em ambiente de produção inicial.
