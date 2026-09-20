@@ -38,8 +38,15 @@ function Header() {
     <header className={style.header}>
       <div className={style.container}>
         <nav className={style.nav}>
-          <button onClick={toggleMenu}>
-            <img src={openMenu ? "/x.svg" : "/menu.svg"} alt="" />
+          <button className={style.btn_menu} onClick={toggleMenu}>
+            <img
+              src={openMenu ? "/x.svg" : "/menu.svg"}
+              alt={
+                openMenu
+                  ? "Fechar menu de navegação"
+                  : "Abrir menu de navegação"
+              }
+            />
           </button>
         </nav>
         <Link className={style.link} href="/">
@@ -47,13 +54,25 @@ function Header() {
         </Link>
 
         <button className={style.btnTema} onClick={toogleTema}>
-          <img className={style.tema} src="/lightmode.svg" alt="" />
+          <img
+            className={style.tema}
+            src={tema ? "/lightmode.svg" : "/moon.svg"}
+            alt={tema ? "Ativar modo claro" : "Ativar modo escuro"}
+          />
         </button>
       </div>
       <div className={style.categorias}>
         <Link href="/artigos/tecnologia">Tecnologia</Link>
         <Link href="/artigos/jogos">Jogos</Link>
       </div>
+      <button className={style.btnTematwo} onClick={toogleTema}>
+        <img
+          className={style.tema}
+          src={tema ? "/lightmode.svg" : "/moon.svg"}
+          alt={tema ? "Ativar modo claro" : "Ativar modo escuro"}
+        />
+      </button>
+
       {openMenu && <Menu />}
     </header>
   );

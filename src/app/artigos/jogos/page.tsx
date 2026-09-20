@@ -1,9 +1,10 @@
 import CardGame from "@/componentes/cards/cardGame";
 import Artigos from "@/lib/services/mocks/News.json";
 import style from "@/style/style-components/Jogos.module.css";
-type Props = {};
 
-function Jogos({}: Props) {
+export const dynamic = "force-static";
+
+function Jogos() {
   const Games = Artigos.filter((item) => item.categoria === "games");
 
   return (

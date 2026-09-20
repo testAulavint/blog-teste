@@ -1,22 +1,25 @@
 import { Artigo } from "@/lib/services/types";
 import style from "@/style/style-components/CardGame.module.css";
-
+import Link from "next/link";
 type Props = {
   item: Artigo;
 };
 
 function CardGame({ item }: Props) {
-  const { id, img, titulo, conteudo } = item;
+  const { id, slug, img, titulo, conteudo } = item;
   return (
-    <div key={id} className={style.container}>
-      <div className={style.containerImg}>
-        <img src={img} alt="" />
+    <Link className={style.link} key={id} href={`/artigos/jogos/${slug}`}>
+      <div className={style.container}>
+        <div className={style.containerImg}>
+          <img src={img} alt={`Imagem do artigo ${titulo}`} />
+        </div>
+        <div className={style.artigo}>
+          <h3>{titulo}</h3>
+          <p>{conteudo}</p>
+          <p>{item.autor}</p>
+        </div>
       </div>
-      <div className={style.artigo}>
-        <h3>{titulo}</h3>
-        <p>{conteudo}</p>
-      </div>
-    </div>
+    </Link>
   );
 }
 

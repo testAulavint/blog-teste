@@ -1,82 +1,132 @@
 [
   {
     "id": 1,
+    "slug": "gta-6-adiado-para-2026",
     "titulo": "GTA 6 é adiado para 2026",
     "conteudo": "A Rockstar confirmou nesta terça-feira que GTA 6 sofreu um novo adiamento e agora tem lançamento previsto para o segundo semestre de 2026. A produtora afirmou que precisa de mais tempo para polir o jogo e entregar a experiência que os fãs esperam.",
     "categoria": "games",
+    "autor": "Rafael Costa",
     "img": "/artigosImg/gta6.jpg",
-    "principal": true
+    "principal": false
   },
   {
     "id": 2,
+    "slug": "legend-of-zelda-switch-2",
     "titulo": "The Legend of Zelda: novo jogo é anunciado para o Switch 2",
     "conteudo": "A Nintendo surpreendeu os fãs ao anunciar um novo título da franquia Zelda durante o último Direct. O jogo promete explorar uma Hyrule totalmente redesenhada e deve aproveitar os recursos do novo console.",
     "categoria": "games",
+    "autor": "Marina Souza",
     "img": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
     "principal": false
   },
   {
     "id": 3,
+    "slug": "elden-ring-30-milhoes-copias",
     "titulo": "Elden Ring ultrapassa 30 milhões de cópias vendidas",
     "conteudo": "A FromSoftware comemorou mais um marco histórico: Elden Ring atingiu 30 milhões de unidades vendidas em todo o mundo. O número consolida o jogo como um dos maiores sucessos da geração.",
     "categoria": "games",
+    "autor": "Lucas Martins",
     "img": "/artigosImg/elden.jpg",
-    "principal": false
+    "principal": true
   },
   {
     "id": 4,
+    "slug": "counter-strike-2-atualizacao-novo-mapa",
     "titulo": "Counter-Strike 2 recebe atualização com novo mapa",
     "conteudo": "A Valve liberou uma atualização gratuita para Counter-Strike 2 trazendo um mapa inédito e ajustes de balanceamento em diversas armas. A comunidade recebeu bem as mudanças competitivas.",
     "categoria": "games",
+    "autor": "Tiago Lima",
     "img": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
     "principal": false
   },
   {
     "id": 5,
+    "slug": "minecraft-colaboracao-anime",
     "titulo": "Minecraft anuncia colaboração com franquia famosa de anime",
     "conteudo": "A Mojang revelou uma parceria inesperada que vai trazer skins, texturas e um evento temático dentro de Minecraft. A colaboração chega em breve para todas as plataformas.",
     "categoria": "games",
+    "autor": "Camila Rocha",
     "img": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     "principal": false
   },
   {
     "id": 6,
+    "slug": "openai-novo-modelo-raciocinio-avancado",
     "titulo": "OpenAI anuncia novo modelo com raciocínio avançado",
     "conteudo": "A OpenAI apresentou seu mais novo modelo de linguagem, com foco em raciocínio passo a passo e melhor desempenho em tarefas complexas de programação e matemática.",
     "categoria": "tecnologia",
+    "autor": "Bruno Almeida",
     "img": "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1200&q=80",
     "principal": false
   },
   {
     "id": 7,
+    "slug": "apple-iphone-chip-2nm",
     "titulo": "Apple revela iPhone com chip de 2nm",
     "conteudo": "A Apple anunciou a nova geração do iPhone equipada com um chip de 2 nanômetros, prometendo ganhos significativos de eficiência energética e desempenho em inteligência artificial.",
     "categoria": "tecnologia",
+    "autor": "Fernanda Alves",
     "img": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=1200&q=80",
     "principal": false
   },
   {
     "id": 8,
+    "slug": "linux-cresce-em-desktops-marca-historica",
     "titulo": "Linux cresce em desktops e atinge marca histórica",
     "conteudo": "Segundo dados recentes, o Linux ultrapassou 5% de participação em desktops pela primeira vez. O crescimento é impulsionado por distros amigáveis e pelo Steam Deck.",
     "categoria": "tecnologia",
+    "autor": "Gabriel Nunes",
     "img": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
     "principal": false
   },
   {
     "id": 9,
+    "slug": "nova-gpu-8k-ray-tracing",
     "titulo": "Nova GPU promete rodar jogos em 8K com ray tracing",
     "conteudo": "A fabricante apresentou sua mais nova placa de vídeo voltada para entusiastas, capaz de rodar títulos pesados em 8K com ray tracing ativado e taxas de quadros estáveis.",
     "categoria": "tecnologia",
-    "img": "https://images.unsplash.com/photo-1555618564-8d6d4745d7a7?auto=format&fit=crop&w=1200&q=80",
+    "autor": "Patrícia Moreira",
+    "img": "https://s2-techtudo.glbimg.com/IgNgf_xBkebiycwHemBIiRfHnhQ=/0x0:1355x762/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/K/i/EiwRNsRwaG5nL3Bl4Mhg/captura-de-tela-2020-09-01-as-13.36.09.png",
     "principal": false
   },
   {
     "id": 10,
+    "slug": "chip-quantico-ibm-resolve-problema-segundos",
     "titulo": "Chip quântico da IBM resolve problema em segundos",
     "conteudo": "A IBM divulgou um avanço em computação quântica: seu novo processador resolveu em segundos um problema que levaria milhares de anos em um computador tradicional.",
     "categoria": "tecnologia",
+    "autor": "Eduardo Santos",
     "img": "https://images.unsplash.com/photo-1532187643603-ba119ca4109e?auto=format&fit=crop&w=1200&q=80",
+    "principal": false
+  },
+  {
+    "id": 11,
+    "slug": "meta-oculos-realidade-mista-ia-integrada",
+    "titulo": "Meta lança óculos de realidade mista com IA integrada",
+    "conteudo": "A Meta apresentou um novo dispositivo de realidade mista com processamento de IA em tempo real, prometendo experiências mais naturais para trabalho, entretenimento e comunicação visual.",
+    "categoria": "tecnologia",
+    "autor": "Aline Pereira",
+    "img": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=1200&q=80",
+    "principal": false
+  },
+  {
+    "id": 12,
+    "slug": "tesla-rede-carregamento-ultrarrapido-brasil",
+    "titulo": "Tesla amplia rede de carregamento ultrarrápido em cidades brasileiras",
+    "conteudo": "A empresa anunciou mais estações de recarga ultrarrápidas em áreas urbanas, com foco em reduzir o tempo de espera para veículos elétricos e aumentar a adoção da mobilidade sustentável.",
+    "categoria": "tecnologia",
+    "autor": "Henrique Dias",
+    "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80",
+    "principal": false
+  },
+  {
+    "id": 13,
+    "slug": "startups-energia-renovavel-inteligente",
+    "titulo": "Startups europeias investem pesado em energia renovável inteligente",
+    "conteudo": "Empresas do setor de tecnologia energética estão desenvolvendo sistemas inteligentes para otimizar consumo, reduzir desperdícios e integrar fontes renováveis com mais eficiência.",
+    "categoria": "tecnologia",
+    "autor": "Sofia Mendes",
+    "img": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80",
     "principal": false
   }
 ]

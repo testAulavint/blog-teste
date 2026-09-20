@@ -2,6 +2,8 @@ import styles from "../page.module.css";
 import Artigos from "@/lib/services/mocks/News.json";
 import CardHome from "../../componentes/cards/cardHome";
 import style from "@/style/style-components/Home.module.css";
+import Link from "next/link";
+export const dynamic = "force-static";
 
 export default function Home() {
   const artPrincipal = Artigos.find((item) => item.principal === true);
@@ -13,11 +15,17 @@ export default function Home() {
   return (
     <>
       <main className={style.main}>
-        <div className={style.containerImg}>
-          <img src={artPrincipal.img} alt="" />{" "}
+        <Link
+          href={`/artigos/jogos/${artPrincipal.slug}`}
+          className={style.containerImg}
+        >
+          <img
+            src={artPrincipal.img}
+            alt={`Capa do artigo principal: ${artPrincipal.titulo}`}
+          />{" "}
           <h2>{artPrincipal.titulo}</h2>{" "}
-        </div>
-        <div className={style.container}>
+        </Link>
+        <div className={style.containerGrid}>
           {artigos.map((item) => (
             <CardHome key={item.id} item={item} />
           ))}

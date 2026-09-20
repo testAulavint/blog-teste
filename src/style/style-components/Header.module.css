@@ -2,15 +2,14 @@
   background-color: rgb(0, 6, 31);
   display: grid;
   grid-template-rows: 1fr, 1fr;
-  height: 5rem;
+  height: 7rem;
   position: relative;
 }
 .container {
-  height: max-content;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.1rem 1rem;
+  padding: 0 1rem;
   border-bottom: 1px solid;
   border-color: rgb(46, 45, 45);
   img {
@@ -18,9 +17,11 @@
   }
 }
 .categorias {
+  height: 100%;
   display: flex;
   justify-content: space-evenly;
   a {
+    align-self: center;
     text-decoration: none;
     color: white;
     font-size: 1.1rem;
@@ -39,7 +40,38 @@
 .link {
   text-decoration: none;
 }
-.btnTema {
+.btnTema,
+.btnTematwo {
   background-color: transparent;
   border: none;
+}
+.btnTematwo {
+  display: none;
+}
+@media (min-width: 1030px) {
+  .btn_menu {
+    display: none;
+  }
+  .header {
+    display: flex;
+
+    padding: 0 1rem;
+  }
+  .categorias {
+    display: flex;
+    gap: 3rem;
+    a {
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    margin-left: auto;
+  }
+  .btnTema {
+    display: none;
+  }
+  .btnTematwo {
+    display: block;
+    margin-left: 5rem;
+  }
 }

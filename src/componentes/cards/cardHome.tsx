@@ -6,11 +6,11 @@ type Props = {
 };
 
 function CardHome({ item }: Props) {
-  const { id, img, titulo, categoria } = item;
+  const { id, slug, img, titulo, categoria } = item;
   return (
-    <Link className={style.link} key={id} href={`/artigos/${categoria}/${id}`}>
+    <Link className={style.link} key={id} href={`/artigos/jogos/${slug}`}>
       <div className={style.container}>
-        <img src={img} alt="" />
+        <img src={img} alt={`Imagem do artigo ${titulo}`} />
         <h3 className={style.h3}>{titulo}</h3>
       </div>
     </Link>

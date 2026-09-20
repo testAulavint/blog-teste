@@ -26,3 +26,10 @@
 :global(body.tema) .line {
   background-color: rgb(175, 175, 174);
 }
+
+@media (min-width: 800px) {
+  .container {
+    width: 60%;
+    margin: 2rem auto;
+  }
+}
